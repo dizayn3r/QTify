@@ -1,0 +1,27 @@
+.nav_link {
+  margin-left: 25px;
+  cursor: pointer;
+  background-color: var(--color-black);
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  color: var(--color-primary);
+  padding: 10px 20px;
+}
+
+@media (max-width: 576px) {
+
+  .nav_link {
+    font-size: 16px;
+    padding: 10px 12px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+
+  .nav_link {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
